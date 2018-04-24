@@ -1,34 +1,105 @@
 <style>
-header{
+
+header {
     color:#eee;
-    font-size:28;
+    border-bottom-style:solid;
+    border-bottom-color:black;
+    background-color:white;
+    width:100%;
+    margin:10px;
+    position:fixed;
+    top:0;
 }
-h1 {
+nav{
+position:fixed;
+    right:0px;
+    text-align:center;
+    background-color:white;
+}
+#myheader {
     text-align:center;
     font-size:40px;
-    color: black;
-    background-color:grey;
-    width:70%;
+    color: white;
+    background-color:#4aaaa5;
+    width:25%;
+    padding:25px;
+    margin-left:80px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
 }
-h2 {
+#page {
     font-size:24px;
+    color:#4aaaa5;
+    margin-left:80px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-bottom-style:solid;
+    border-bottom-color:#dddddd;
+}
+#main {
+    width:960;
+    border-style:solid;
+    background-color:#ffffff;
+    border-color:#dddddd;
+    line-height:2;
+   margin:15px;
+;   padding:15px;
 }
 img {
-    width:200px;
-    height:200px;
-}
-
-body {
-    background-color:#efeee7;
-    font:#333333;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin:0;
-    padding:0;
-}
-h3{
-    width:30%;
-}
-ul{
+    width:150px;
+    height:150px;
     float:left;
+}
+body {
+    background-image:"sun-pattern.png";
+}
+#button {
+    background-color:#4aaaa5;
+}
+message {
+    widows: 100px;
+    height: 50px;
+}
+footer {
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color:#666666;
+    text-align:center;
+    color:white;
+    border-style:solid;
+    border-top-color: #4aaaa5;
+    border-width:5px;
+}
+.pone {
+    position:absolute;
+    left:10%;
+    height:100px;
+    width:100px;
+}
+.ptwo {
+    position:absolute;
+    left:10%;
+    height:100px;
+    width:100px;
+}
+.pthree {
+    position:absolute;
+    left:10%;
+    height:100px;
+    width:100px;
+}
+.pfour {
+    position:absolute;
+    left:35%;
+    top:80%;
+}
+.pfive {
+    position:absolute;
+    left:35%;
+    top:40%;
+}
+ul {
+    list-style-type:none;
 }
 </style>
