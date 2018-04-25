@@ -3,18 +3,15 @@
 header {
     color:#eee;
     border-bottom-style:solid;
-    border-bottom-color:black;
     background-color:white;
     width:100%;
-    margin:10px;
     position:fixed;
     top:0;
 }
 nav{
-position:fixed;
+    float:right;
     right:0px;
     text-align:center;
-    background-color:white;
 }
 #myheader {
     text-align:center;
@@ -41,8 +38,7 @@ position:fixed;
     background-color:#ffffff;
     border-color:#dddddd;
     line-height:2;
-   margin:15px;
-;   padding:15px;
+    padding:15px;
 }
 img {
     width:150px;
@@ -50,15 +46,14 @@ img {
     float:left;
 }
 body {
-    background-image:"sun-pattern.png";
+    background-image:url("https://www.google.com/imgres?imgurl=http%3A%2F%2Fcdn1.bestpsdfreebies.com%2Fwp-content%2Fuploads%2F2014%2F05%2Fshards_pattern.jpg&imgrefurl=http%3A%2F%2Fwww.bestpsdfreebies.com%2Ffreebie%2Fshards-geometric-pattern%2F&docid=lMWl1T4jTMlC-M&tbnid=-v9VSAtt95FSSM%3A&vet=10ahUKEwiD8bWLsdbaAhWi6YMKHXtdAEQQMwigAigaMBo..i&w=1500&h=753&bih=686&biw=1200&q=pattern&ved=0ahUKEwiD8bWLsdbaAhWi6YMKHXtdAEQQMwigAigaMBo&iact=mrc&uact=8");
 }
 #button {
     background-color:#4aaaa5;
+    padding:3px;
+    width:60px;
 }
-message {
-    widows: 100px;
-    height: 50px;
-}
+
 footer {
     position:fixed;
     left:0;
@@ -73,33 +68,60 @@ footer {
 }
 .pone {
     position:absolute;
-    left:10%;
-    height:100px;
-    width:100px;
+    top:40%;
+    left:50px;
 }
 .ptwo {
     position:absolute;
-    left:10%;
-    height:100px;
-    width:100px;
+    top:65%;
+    left:50px;
 }
 .pthree {
     position:absolute;
-    left:10%;
-    height:100px;
-    width:100px;
+    top:90%;
+    left:50px;
 }
 .pfour {
     position:absolute;
-    left:35%;
-    top:80%;
+    top:40%;
+    left:350px;
 }
 .pfive {
     position:absolute;
-    left:35%;
-    top:40%;
+    top:65%;
+    left:350px;
 }
 ul {
     list-style-type:none;
+}
+#pic {
+    background-color:#4aaaa5;
+    text-align:center;
+    width:10%;
+    padding:5px;
+    position:relative; 
+    bottom:0;
+}
+#pic4 {
+    position:absolute;
+    top:45%;
+    left:360px;
+    background-color:#4aaaa5;
+    width:10%;
+    height:35px;
+    padding:5px;
+    bottom:0;
+    text-align:center;
+}
+#pic5 {
+    position:absolute;
+    top:70%;
+    left:360px;
+    background-color:#4aaaa5;
+    width:10%;
+    height:35px;
+    padding:5px;
+    bottom:0;
+    text-align:center;
 }
 </style>
